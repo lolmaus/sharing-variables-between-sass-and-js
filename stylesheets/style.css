@@ -1,0 +1,88 @@
+/* line 13, ../sass/style.sass */
+section {
+  background-color: pink;
+  min-height: 4em;
+  margin-bottom: 2em;
+}
+
+@media (min-width: 401px) and (max-width: 600px) {
+  /* line 18, ../sass/style.sass */
+  .foo {
+    width: 45.45455%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0%;
+    clear: none;
+  }
+}
+@media (min-width: 601px) and (max-width: 800px) {
+  /* line 18, ../sass/style.sass */
+  .foo {
+    width: 64.70588%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0%;
+    clear: none;
+  }
+}
+@media (min-width: 801px) and (max-width: 1010px) {
+  /* line 18, ../sass/style.sass */
+  .foo {
+    width: 47.82609%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0%;
+    clear: none;
+  }
+}
+@media (min-width: 1011px) {
+  /* line 18, ../sass/style.sass */
+  .foo {
+    width: 37.93103%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0%;
+    clear: none;
+  }
+}
+
+@media (min-width: 401px) and (max-width: 600px) {
+  /* line 31, ../sass/style.sass */
+  .bar {
+    width: 45.45455%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+  }
+}
+@media (min-width: 601px) and (max-width: 800px) {
+  /* line 31, ../sass/style.sass */
+  .bar {
+    width: 29.41176%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+  }
+}
+@media (min-width: 801px) and (max-width: 1010px) {
+  /* line 31, ../sass/style.sass */
+  .bar {
+    width: 47.82609%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+  }
+}
+@media (min-width: 1011px) {
+  /* line 31, ../sass/style.sass */
+  .bar {
+    width: 58.62069%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+  }
+}
