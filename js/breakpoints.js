@@ -3,7 +3,7 @@ var
   $breakpoint = $('#breakpoint'),
   $breakpoints = $('#breakpoints'),
   $window = $(window),
-  requestBreakpoints = $.get('/breakpoints.json'),
+  requestBreakpoints = $.get('breakpoints.json'),
   breakpoints = [];
 
   
